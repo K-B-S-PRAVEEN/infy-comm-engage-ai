@@ -14,10 +14,10 @@ const CTASection = () => {
           <div className="grid md:grid-cols-2 gap-10 items-center relative z-10">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Ready to Transform Your <span className="text-gradient">Business Communication</span>?
+                Ready to Transform Your <span className="text-gradient">E-Commerce Business</span>?
               </h2>
               <p className="text-gray-300 mb-6">
-                Join hundreds of successful businesses that have elevated their customer engagement with Infy Comm's AI-powered platform.
+                Join hundreds of successful businesses that have elevated their multi-channel commerce with Infy Comm's AI-powered platform.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -54,6 +54,9 @@ const CTASection = () => {
                   Schedule Demo
                 </Button>
               </div>
+              <p className="mt-4 text-sm text-gray-400">
+                Contact us at sales@infycomm.com or call +1-800-123-4567
+              </p>
             </div>
             <div>
               <div className="bg-gradient-to-br from-infy-900 to-infy-800 rounded-xl p-6 border border-infy-700/50">
@@ -64,40 +67,40 @@ const CTASection = () => {
                   </div>
                 </div>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold">$89</span>
+                  <span className="text-4xl font-bold">$499</span>
                   <span className="text-gray-400 ml-2">/month</span>
-                  <p className="text-sm text-gray-400 mt-1">Billed annually</p>
+                  <p className="text-sm text-gray-400 mt-1">Handles 5,000+ orders per month</p>
                 </div>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-infy-400 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-300">5,000 AI-powered conversations/month</span>
+                    <span className="text-gray-300">Multi-channel selling (Web, Mobile, Amazon, eBay)</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-infy-400 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-300">Omnichannel support (Web, Email, SMS)</span>
+                    <span className="text-gray-300">AI-powered order routing & fulfillment</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-infy-400 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-300">Advanced Analytics Dashboard</span>
+                    <span className="text-gray-300">Real-time inventory synchronization</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-infy-400 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-300">3 Team Members</span>
+                    <span className="text-gray-300">Advanced analytics & reporting</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-infy-400 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-300">Priority Support</span>
+                    <span className="text-gray-300">5 Team Members</span>
                   </li>
                 </ul>
                 <Button variant="secondary" size="lg" className="w-full">

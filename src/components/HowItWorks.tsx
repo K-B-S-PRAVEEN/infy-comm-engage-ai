@@ -2,27 +2,27 @@
 const steps = [
   {
     number: "01",
-    title: "Integrate with your platforms",
+    title: "Integrate with your sales channels",
     description:
-      "Connect Infy Comm to your existing tools with our simple API or use our pre-built integrations for popular business platforms.",
+      "Connect Infy Comm to your existing e-commerce platforms, marketplaces, and physical stores with our flexible API integration.",
   },
   {
     number: "02",
-    title: "Train the AI assistant",
+    title: "Configure your AI assistant",
     description:
-      "Customize your AI assistant with your brand voice, product information, and customer service guidelines through our no-code training interface.",
+      "Set up your AI-powered assistant with your product catalog, pricing strategies, and fulfillment rules through our intuitive dashboard.",
   },
   {
     number: "03",
-    title: "Deploy across channels",
+    title: "Launch across multiple channels",
     description:
-      "Launch your smart communication solution across web, mobile, social media, and messaging platforms with a single click.",
+      "Deploy your unified commerce solution across web, mobile, marketplaces, and social commerce platforms with real-time synchronization.",
   },
   {
     number: "04",
-    title: "Analyze and optimize",
+    title: "Optimize with AI insights",
     description:
-      "Use our comprehensive analytics dashboard to monitor performance, identify trends, and continuously improve customer engagement.",
+      "Use our comprehensive analytics to monitor performance across all channels, identify trends, and automatically optimize inventory and fulfillment.",
   },
 ];
 
@@ -35,7 +35,7 @@ const HowItWorks = () => {
             How <span className="text-gradient">Infy Comm</span> Works
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Get up and running with intelligent communication in just four simple steps
+            Get started with AI-powered e-commerce in just four simple steps
           </p>
         </div>
         

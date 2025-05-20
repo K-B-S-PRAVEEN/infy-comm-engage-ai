@@ -5,42 +5,42 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 const useCases = [
   {
     id: "ecommerce",
-    title: "E-Commerce",
-    description: "Increase conversions and reduce cart abandonment",
+    title: "E-Commerce & Marketplaces",
+    description: "Optimize search and order processing",
     content: {
-      challenge: "E-commerce businesses struggle with high cart abandonment rates and providing timely customer support across multiple channels.",
-      solution: "Infy Comm's AI chatbots provide instant product recommendations, answer customer questions in real-time, and send personalized follow-ups for abandoned carts.",
-      results: ["32% reduction in cart abandonment", "47% increase in cross-selling success", "24/7 customer support without increasing staff"]
+      challenge: "E-commerce businesses struggle with managing inventory across multiple sales channels and providing personalized shopping experiences.",
+      solution: "Infy Comm provides AI-powered search, automated order processing, and inventory optimization to ensure seamless operations across all platforms.",
+      results: ["37% increase in cross-platform sales", "42% reduction in overselling incidents", "67% improvement in search result relevance"]
     }
   },
   {
-    id: "saas",
-    title: "SaaS",
-    description: "Streamline onboarding and customer retention",
+    id: "retail",
+    title: "Retail & Omni-Channel",
+    description: "Unify online and in-store operations",
     content: {
-      challenge: "SaaS companies need to efficiently onboard users, provide technical support, and identify at-risk accounts before they churn.",
-      solution: "Our platform offers guided product tours, contextual help, and proactive engagement based on usage patterns to improve customer satisfaction and retention.",
-      results: ["56% faster user onboarding", "42% reduction in support tickets", "28% improvement in customer retention"]
-    }
-  },
-  {
-    id: "finance",
-    title: "Financial Services",
-    description: "Secure and compliant customer communication",
-    content: {
-      challenge: "Financial institutions need to maintain secure, compliant communication while providing personalized service to customers.",
-      solution: "Infy Comm provides encryption, compliance monitoring, and audit trails while delivering personalized financial guidance and support.",
-      results: ["100% compliance with financial regulations", "63% increase in customer satisfaction", "41% reduction in query resolution time"]
+      challenge: "Retailers face difficulties synchronizing inventory between online and physical stores, leading to poor customer experiences and lost sales.",
+      solution: "Our platform offers real-time inventory synchronization, ship-from-store capabilities, and BOPIS (Buy Online, Pick up In Store) support.",
+      results: ["28% reduction in store-level stockouts", "46% increase in omnichannel conversion", "52% of online orders fulfilled from stores"]
     }
   },
   {
     id: "healthcare",
-    title: "Healthcare",
-    description: "Patient engagement and care coordination",
+    title: "Healthcare & Pharma",
+    description: "Secure and compliant commerce",
     content: {
-      challenge: "Healthcare providers struggle with patient communication, appointment management, and follow-up care coordination.",
-      solution: "Our HIPAA-compliant platform streamlines appointment scheduling, medication reminders, and post-visit follow-ups while maintaining patient privacy.",
-      results: ["72% decrease in missed appointments", "58% improvement in medication adherence", "34% reduction in administrative workload"]
+      challenge: "Healthcare providers need to maintain regulatory compliance while efficiently managing complex product catalogs and supply chains.",
+      solution: "Infy Comm delivers compliance automation, batch tracking, and AI-driven inventory management specifically designed for healthcare requirements.",
+      results: ["100% compliance with industry regulations", "73% reduction in expired inventory", "39% improvement in reorder efficiency"]
+    }
+  },
+  {
+    id: "automotive",
+    title: "Automotive & Parts",
+    description: "Complex inventory and order management",
+    content: {
+      challenge: "Automotive businesses struggle with complex parts catalogs, fitment data, and cross-channel inventory management.",
+      solution: "Our platform provides VIN-based product lookup, inventory tracking across warehouses and stores, and order fulfillment optimization.",
+      results: ["82% decrease in wrong part shipments", "41% reduction in return processing time", "58% improvement in customer satisfaction"]
     }
   }
 ];
@@ -51,10 +51,10 @@ const UseCaseSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-gradient">Use Cases</span> & Success Stories
+            <span className="text-gradient">Industry Use Cases</span> & Success Stories
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            See how businesses across industries are transforming their customer communication with Infy Comm
+            See how businesses across industries are transforming their e-commerce operations with Infy Comm
           </p>
         </div>
 
@@ -100,10 +100,10 @@ const UseCaseSection = () => {
                         </div>
                         <div className="ml-4">
                           <p className="text-sm font-medium">
-                            "Infy Comm transformed our customer communication strategy completely."
+                            "Infy Comm transformed our entire e-commerce strategy and execution."
                           </p>
                           <p className="text-xs text-gray-400">
-                            — Director of Customer Experience, Leading {useCase.title} Company
+                            — Director of Digital Commerce, Leading {useCase.title} Company
                           </p>
                         </div>
                       </div>

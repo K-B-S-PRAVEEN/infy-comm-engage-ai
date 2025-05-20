@@ -14,19 +14,18 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <div className="inline-block mb-4 px-3 py-1 bg-infy-500/10 border border-infy-500/20 rounded-full">
-              <span className="text-sm text-infy-300">AI-Powered Communication Platform</span>
+              <span className="text-sm text-infy-300">AI-Powered E-Commerce Platform</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Transform Your <span className="text-gradient">Business Communication</span>
+              The Future of <span className="text-gradient">Smart E-Commerce</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0">
-              Infy Comm delivers smart AI-powered solutions that elevate your customer conversations, 
-              streamline engagement, and drive commercial success through intelligent automation.
+              An API-driven e-commerce platform designed to help businesses sell, manage, and scale across multiple channels with AI-powered solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" className="gap-2">
                 <MessageCircle size={18} />
-                Get Started Free
+                Start Free Trial
               </Button>
               <Button size="lg" variant="outline" className="gap-2">
                 <Send size={18} />
@@ -51,7 +50,7 @@ const HeroSection = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <div className="relative">
-              {/* Mock chat interface */}
+              {/* Mock e-commerce dashboard interface */}
               <div className="glass-card rounded-xl p-2 max-w-lg mx-auto mb-6 animate-float">
                 <div className="bg-background/80 rounded-lg p-3">
                   <div className="flex items-center mb-3">
@@ -59,25 +58,25 @@ const HeroSection = () => {
                       <MessageCircle size={16} className="text-infy-400" />
                     </div>
                     <div className="ml-2">
-                      <p className="text-sm font-medium">Infy Assistant</p>
-                      <p className="text-xs text-gray-400">Online</p>
+                      <p className="text-sm font-medium">AI Sales Assistant</p>
+                      <p className="text-xs text-gray-400">Analyzing data</p>
                     </div>
                   </div>
                   <div className="space-y-3">
                     <div className="bg-gray-800/50 rounded-lg p-2.5 max-w-[80%] text-sm">
-                      How can I help you with your business communication needs today?
+                      Your sales across Amazon and Shopify have increased by 27% this month.
                     </div>
                     <div className="bg-infy-500/20 rounded-lg p-2.5 max-w-[80%] ml-auto text-sm">
-                      I need to improve our customer service response time
+                      What inventory should I restock?
                     </div>
                     <div className="bg-gray-800/50 rounded-lg p-2.5 max-w-[80%] text-sm">
-                      I can suggest our AI-powered automated response system that reduces wait times by 78% and improves customer satisfaction scores.
+                      Based on current trends, I recommend restocking Product X and Y. Would you like me to prepare a purchase order?
                     </div>
                   </div>
                   <div className="mt-3 relative">
                     <input 
                       type="text" 
-                      placeholder="Type your message..."
+                      placeholder="Ask your AI assistant..."
                       className="w-full bg-white/5 border border-white/10 rounded-full py-2 px-4 text-sm focus:outline-none focus:ring-1 focus:ring-infy-500"
                     />
                     <Button size="sm" className="absolute right-1 top-1 p-1 h-7 w-7 rounded-full">
@@ -89,17 +88,17 @@ const HeroSection = () => {
 
               {/* Stats card */}
               <div className="glass-card rounded-xl p-4 absolute -bottom-8 -right-10 w-48 animate-float" style={{animationDelay: "1s"}}>
-                <p className="text-xs text-gray-400 mb-1">Response Rate</p>
-                <p className="text-2xl font-bold">95.8%</p>
+                <p className="text-xs text-gray-400 mb-1">Order Fulfillment</p>
+                <p className="text-2xl font-bold">98.5%</p>
                 <div className="w-full h-1.5 bg-gray-700 rounded-full mt-2">
-                  <div className="h-full bg-gradient-to-r from-infy-400 to-infy-600 rounded-full" style={{width: "95.8%"}}></div>
+                  <div className="h-full bg-gradient-to-r from-infy-400 to-infy-600 rounded-full" style={{width: "98.5%"}}></div>
                 </div>
               </div>
 
               {/* Analytics card */}
               <div className="glass-card rounded-xl p-4 absolute -left-8 top-10 w-40 animate-float" style={{animationDelay: "0.5s"}}>
-                <p className="text-xs text-gray-400 mb-1">Engagement</p>
-                <p className="text-lg font-bold text-infy-400">+67%</p>
+                <p className="text-xs text-gray-400 mb-1">Sales Growth</p>
+                <p className="text-lg font-bold text-infy-400">+42%</p>
                 <div className="flex items-end h-12 gap-1 mt-2">
                   {[20, 35, 25, 45, 30, 55, 65].map((h, i) => (
                     <div key={i} className="flex-1 bg-infy-500/40 rounded-sm" style={{height: `${h}%`}}></div>
